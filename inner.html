@@ -5,34 +5,85 @@
     <title>Седона</title>
   </head>
   <body>
-  	<header>
-  		<nav class="main-navigation">
-  			<ul class="site-navigation">
-  				<li><a href="#">Информация</a></li>
-  				<li><a href="#">Фото и Видео</a></li>
-  				<li><a href="#">Карта штата</a></li>
-  				<li><a href="#">Гостиницы</a></li>
-  			</ul>
-  			<div class="logo">
-  				<a href="index.html">
-  					<img src="http://placehold.it/150x100" alt="Sedona logo" width="100" height="100">
-  				</a>
-  			</div>
-  		</nav>
-  	</header>
+    <header>
+      <nav class="main-navigation">
+        <ul class="site-navigation">
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и Видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="#">Гостиницы</a></li>
+        </ul>
+        <div class="logo">
+          <a href="index.html">
+            <img src="http://placehold.it/150x100" alt="Sedona logo" width="100" height="100">
+          </a>
+        </div>
+      </nav>
+    </header>
     <main>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр гостиниц</h2>
-        <!--Здесь будет форма?-->
+        <!--Здесь будет форма-->
       </section>
       <section class="hotels-sort">
         <h2 class="hotels-found">Найдено: 3</h2>
         <ul class="hotels-sort-by">
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По рейтингу</li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По рейтингу</a></li>
         </ul>
+        <div class="search-results-right">
+          <a href="#" class="arrow icon-up-">&#9650;&nbsp;</a>
+          <a href="#" class="arrow-active icon-down-">&#9660;</a>
+        </div>
       </section>
+        <!--Секция про отели-->
+        <section class="hotels">
+          <figure class="hotel-image">
+            <img src="#" alt="hotel-picture-1" width="50" height="50">
+          </figure>
+          <div class="first-hotel-description">
+            <a href="#" class="hotel-link">Amara Resort & Spa</a>
+            <span>Гостиница</span>
+            <p class="hotel-price">От 3500 Р.</p>
+            <a href="#" class="button-blue hotel-info">Подробнее</a>
+            <a href="#" class="button-brown hotel-booking">Забронировать</a>
+          </div>
+          <div class="rating-stars">
+            <p class="stars">&#9733;&#9733;&#9733;&#9733;</p>
+          <p class="rating-nubmers">Рейтинг: 8,5</p>
+        </div>
+        <!--Второй отель-->
+        <figure class="hotel-image">
+            <img src="#" alt="hotel-picture-2" width="50" height="50">
+          </figure>
+        <div>
+            <a href="#" class="hotel-link">Desert Quail Inn</a>
+            <span>Мотель</span>
+            <p class="hotel-price">От 2000 Р.</p>
+            <a href="#" class="button-blue hotel-info">Подробнее</a>
+            <a href="#" class="button-brown hotel-booking">Забронировать</a>
+          </div>
+          <div class="rating-stars">
+            <p class="stars">&#9733;&#9733;</p>
+          <p class="rating-nubmers">Рейтинг: 8,9</p>
+        </div>
+        <!--Третий отель-->
+        <figure class="hotel-image">
+          <img src="#" alt="hotel-picture-3" width="50" height="50">
+        </figure>
+        <div>
+            <a href="#" class="hotel-link">Villas At Poco Diablo</a>
+            <span>Апартаменты</span>
+            <p class="hotel-price">От 4000 Р.</p>
+            <a href="#" class="button-blue hotel-info">Подробнее</a>
+            <a href="#" class="button-brown hotel-booking">Забронировать</a>
+          </div>
+          <div class="rating-stars">
+            <p class="stars">&#9733;&#9733;&#9733;</p>
+          <p class="rating-nubmers">Рейтинг: 9,2</p>
+        </div>
+        </section>
     </main>
     <footer class="main-footer">
       <a href="#" class="hashtag">#visitsedona</a>
@@ -42,7 +93,6 @@
           <li><a class="social-button" href="#"></a>Facebook</li>
           <li><a class="social-button" href="#"></a>Youtube</li>
         </ul>
-        <!--построить сетку отелей списком?-->
       </div>
     </footer>
   </body>
